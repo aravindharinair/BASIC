@@ -1,6 +1,6 @@
   
 # Softwares Required
-  For installation, there are 2 options: VirtualBox or Native Installation.
+  For installation, there are 2 options: VirtualBox or Native Installation. Both methods have been explained below but if you still have concerns or doubts, don't hesitate to contact us.
   
   * **Virtual Box**
   
