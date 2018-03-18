@@ -5,9 +5,9 @@
 
 First off, read the [Software Requirements](https://github.com/aravindharinair/BASIC/blob/master/Software%20Requirements.md) and setup your system accordingly.
 
-Coming to the camp materials: They would be classified into folders arranged in chronological order and named as such. That is, "Week 1", "Week 2", etc would be the folder name.
+Coming to the camp materials: They would be classified into folders arranged in chronological order and named as such. That is, "Week 1", "Week 2", etc.
 
-Within these folders, the problems for the class would be given in this type of file, so there is no need for you to download anything. 
+Within these folders, the problems for the class would be given. There is no need for you to download anything as the problems can be viewed in the browser itself. For certain questions, there would be starter code given. You can use that to find the solution, but if you prefer working from scratch, you're more than welcome to.
 
 You will be given 1 week to complete the problems and then, the solutions would be posted in the same folder.
 
