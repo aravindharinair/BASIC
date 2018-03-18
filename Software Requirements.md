@@ -20,36 +20,52 @@
     Instructions and links to the software are given below according to the OS
     
     
-### Installation - Linux
+### Installation - Ubuntu
 
-Installing on Linux is the easiest as you just need to type out in the Terminal
+Installing on Ubuntu (or any other flavour of Linux) is the easiest as it's using the command line interface.
 
 *Text Editor:*
 
-You can use either the in-built ```gedit``` or install Atom.
-If you're going with atom:
+You can use either the in-built ```gedit``` or any other text editors such as Atom, Sublime Text, Microsoft VS Code, etc.
+Personally, I prefer Atom over Sublime as it's open-source and has lots of support.
+
+If you're going with Atom:
 1. Open a terminal (Ctrl+Alt+T)
 2. Type:
-     ```sudo add-apt-repository ppa:ubuntu-desktop/ubuntu-make
-     sudo apt-get update```
+     ```
+     sudo add-apt-repository ppa:ubuntu-desktop/ubuntu-make
+     sudo apt-get update
+     ```
 3. After that, run:
      ```umake ide atom```
      
-If you prefer anything else, like Sublime Text or so, feel free to use those.
+If you don't want Atom or if you prefer anything else, feel free to use those.
 
 *Compiler:*
 
 * If you're going with C/C++, the compilers (gcc/gpp) are already pre-installed.
 
-* If you're proceeding in Java, choose OracleJDK over OpenJDK. 
-   ```sudo add-apt-repository ppa:webupd8team/java
+* If you're proceeding in Java, choose OracleJDK over OpenJDK as it's less buggy as reported by users. 
+   ```
+   sudo add-apt-repository ppa:webupd8team/java
    sudo apt-get update
    sudo apt-get install oracle-java8-installer
    ```
    
  And follow the instructions given on-screen by the installer.
 
-* If you're proceeding with Python, there is not much to do as they are usually pre-installed.
+* If you're proceeding with Python, this is the simplest way:
+  ```
+  sudo apt-get update
+  sudo apt-get install python3.6
+  ```
+  But if that doesn't work for you, try:
+  ```
+  sudo apt-get install software-properties-common
+  sudo add-apt-repository ppa:deadsnakes/ppa
+  sudo apt-get update
+  sudo apt-get install python3.6
+  ```
 
 
 ### Installation - Windows
@@ -73,5 +89,5 @@ After installing all these, the exe files should be added to your PATH variable 
 
 Similar to Windows, download the MacOS files (usually .dmg files) and run them.
 
-Unfortunately, since none of us have much experience on MacOS, Google would be your best friend.
+Unfortunately, since none of us have much experience on MacOS, Google would be your best friend for installing stuff.
 
